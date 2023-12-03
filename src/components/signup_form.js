@@ -25,7 +25,7 @@ function SignUpForm() {
 
     return (
     <div className='flex flex-col place-items-center w-full md:w-[30%] mt-[-2%] md:mt-0'>
-        <h1 className='text-[5.5vw] md:text-[1.9vw] text-center text-white mb-[7%] '>Sign up for your<br/>Debt Management Plan</h1>
+        <h1 className='text-[5.5vw] md:text-[1.9vw] text-center text-white mb-[7%] '>Sign up for your <br></br>Free Consultation</h1>
         <form onSubmit={handleSubmit} className='form flex flex-col space-y-5 w-[80%]'>
             <input className ="bg-orange-300 bg-opacity-50 rounded placeholder-white placeholder-opacity-75" placeholder='First Name' type="text" id="firstname"
                 name="FirstName" required/>
